@@ -7,8 +7,8 @@ from sklearn.metrics import accuracy_score
 import cv2
 import pickle
 
-data_path = "C:/Users/arkob/OneDrive/Desktop/PYTHON/Summer Intern/all newspapers/main_ocr/training dataset/TOI 1/"
-labels_path = "C:/Users/arkob/OneDrive/Desktop/PYTHON/Summer Intern/all newspapers/main_ocr/training dataset/TOI1.txt"
+data_path = "<enter path to dataset>"
+labels_path = "<enter path for labels>"
 
 base_model = VGG16(weights='imagenet', include_top=False, input_shape=(224, 224, 3))
 
